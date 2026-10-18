@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Tailwind preflight adds max-width: 100% to img/video: once an image is wider than its container (an enlarged or panned screenshot) its width is pushed back to the container width while the height stays the same, squashing the picture horizontally */
+img,
+video {
+  max-width: none;
+}

@@ -1,0 +1,28 @@
+# Finished videos and project files: every user has their own product, these are large (1~4 GB per project), and the project contains a .env secret
+outputs/*
+!outputs/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+template/out/
+template/public/audio/*.wav
+template/audio-src/_*
+__pycache__/
+*.py[cod]
+
+# OS and editors
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+
+# Agent workspace (OpenHands memory and scratch files)
+.openhands/
